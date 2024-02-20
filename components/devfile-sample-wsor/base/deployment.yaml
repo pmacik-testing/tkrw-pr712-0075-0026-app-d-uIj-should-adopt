@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-wsor
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/pmacik-testing/tkrw-pr712-0075-0026-tenant/tkrw-pr712-0075-0026-app/devfile-sample-wsor@sha256:fccd1b4179f0394cf38bc28a178f9da8320ed72142a3cc8ad0a5fb4bbbfefe10
         name: my-nodejs
         ports:
         - containerPort: 3001
